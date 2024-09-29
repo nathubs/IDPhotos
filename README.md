@@ -1,4 +1,4 @@
-# 明俞予证件照生成器
+# 证件照生成器
 
 项目预览：
 - <img src="https://github.com/user-attachments/assets/570d698e-9c32-4699-9ab9-bc5c594daa24" width="400">
