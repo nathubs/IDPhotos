@@ -644,7 +644,8 @@
           formData.append('kb', '200');
           formData.append('render', '0');
 
-          fetch('https://ps.zhuangbishipin.top/add_background', {
+          // fetch('https://ps.zhuangbishipin.top/add_background', {
+          fetch('http://localhost:8080/add_background', {
             method: 'POST',
             body: formData
           })
@@ -686,7 +687,8 @@
           formData.append('height', heightPx);
           formData.append('kb', '200');
 
-          fetch('https://ps.zhuangbishipin.top/generate_layout_photos', {
+          // fetch('https://ps.zhuangbishipin.top/generate_layout_photos', {
+          fetch('http://localhost:8080/generate_layout_photos', {
             method: 'POST',
             body: formData
           })
